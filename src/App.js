@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./trainup-logo-plavi-p.png";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="App-header">
+      <nav class="Navbar">
+        <ul>
+          <i>
+            <img src={logo} class="App-logo" alt="logo" />
+          </i>
+          <li>
+            <a href="default.asp">Treneri</a>
+          </li>
+          <li>
+            <a href="news.asp">Blog</a>
+          </li>
+          <li>
+            <a href="contact.asp">O nama</a>
+          </li>
+          <li>
+            <a href="about.asp">Postani trener</a>
+          </li>
+          <li>
+            <a href="about.asp">Prijavi se</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="Search-div">
+        <h1 class="Search-h1">Pronadji trenera</h1>
+      </div>
     </div>
   );
 }
