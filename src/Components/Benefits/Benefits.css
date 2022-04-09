@@ -1,0 +1,40 @@
+* {
+  text-decoration: none;
+  font-family: "Segoe UI";
+  margin: 0;
+  padding: 0;
+}
+
+.benefits-div {
+  height: 400px;
+  width: 100%;
+  background-color: aquamarine;
+  text-align: center;
+  display: absolute;
+}
+
+.benefit-element-div {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.header-benefits {
+  padding-top: 100px;
+  font-size: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.benefit-element {
+  padding-top: 50px;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: left;
+  width: 120px;
+  padding-inline-end: 26px;
+}
+
+.benefit-caption {
+  text-align: left;
+}
